@@ -2,7 +2,7 @@
     <header>
         <div class="container">
             <Logo/>
-            <NavBar/>
+            <NavBar :links="navLinks"/>
         </div>
     </header>
 </template>
