@@ -10,7 +10,9 @@
 
         <!-- inizio nav destra -->
         <ul class="nav-right">
-            <li>destra</li>
+            <li><button class="btn btn1">Schedule a workout</button></li>
+            <li><i class="fas fa-search"></i></li>
+            <li><i class="fas fa-shopping-cart"></i></li>
         </ul>
         <!-- /nav destra -->
     </nav>
@@ -50,6 +52,8 @@ export default {
 
     .nav-left {
         margin-right: 20px;
+        height: 36px;
+        line-height: 36px;
         li {
             a {
             color: $gray;
@@ -60,15 +64,24 @@ export default {
             }
             &:last-child::after {
             content: 'new';
-            display: inline-block;
+            display: inline;
             font-size: .875rem;
             color: black;
             background-color: #fff941;
             border-radius: 2px;
             margin-left: 10px;
             padding: 2px 6px ;
+            }
         }
+    }
+
+    .nav-right {
+        i {
+            color: $gray;
+            cursor: pointer;
+            &:hover {
+                color: $white;
+            }
         }
-        
     }
 </style>
