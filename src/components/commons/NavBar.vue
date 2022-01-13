@@ -67,7 +67,7 @@ export default {
             display: inline;
             font-size: .875rem;
             color: black;
-            background-color: #fff941;
+            background-color: $yellow;
             border-radius: 2px;
             margin-left: 10px;
             padding: 2px 6px ;

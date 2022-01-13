@@ -13,7 +13,7 @@
 
 /* COMMONS */
 .container {
-    width: 85%;
+    width: 75%;
     margin: 0 auto;
 }
 ul {
@@ -35,10 +35,43 @@ ul {
             background-color: $hoverBtn1;
         }
     }
+    &.btn2 {
+        background-color: $btn2;
+        border: 1px solid $gray;
+        &:hover {
+            background-color: $hoverBtn2;
+            color: black;
+        }
+    }
 }
 
 
 /* TYPOGRAPHY */
 body {
     font-family: 'Roboto Condensed', sans-serif;
+}
+.red-text {
+    color: $hoverBtn1;
+}
+.yellow-text {
+    font-weight: 700;
+    color: $yellow;
+}
+h4 {
+    font-size: 1.375rem;
+    color: $white;
+}
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .quote-content {
+        width: 60%;
+        text-align: center;
+        p {
+            color: $white;
+            font-size: 1.875rem;
+            line-height: 1.4;
+        }
+    }
 }
