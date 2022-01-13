@@ -26,7 +26,7 @@
 
 <script>
 export default {
-    name: 'CardServices'
+    name: 'CardService'
 }
 </script>
 
@@ -46,7 +46,7 @@ export default {
                 position: relative;
                 cursor: pointer;
                 img {
-                    width: 300px;
+                    width: 100%;
                     object-fit: cover;
                 }
                 .content-box {

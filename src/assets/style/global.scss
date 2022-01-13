@@ -16,6 +16,9 @@
     width: 75%;
     margin: 0 auto;
 }
+section {
+    padding: 100px 0;
+}
 ul {
     list-style: none;
     a {
@@ -43,6 +46,21 @@ ul {
             color: black;
         }
     }
+    &.btn3 {
+        background-color: $btn3;
+        &:hover {
+            background-color: $hoverBtn1;
+        }
+    }
+}
+.play-btn {
+    text-align: center;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    i {
+        color: $btn1;
+    }
 }
 
 
@@ -51,15 +69,32 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 .red-text {
+    font-size: 1.25rem;
     color: $hoverBtn1;
 }
 .yellow-text {
     font-weight: 700;
     color: $yellow;
 }
+.blue-text {
+    font-size: 1.25rem;
+    color: $btn1;
+}
+.gray-text {
+    color: $gray;
+}
+h2 {
+    font-size: 2.625rem;
+    font-weight: 400;
+    margin-top: 20px;
+}
 h4 {
     font-size: 1.375rem;
     color: $white;
+}
+h5 {
+    font-size: 1.25rem;
+    font-weight: 400;
 }
 .quote-box {
     display: flex;

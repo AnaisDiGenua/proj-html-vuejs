@@ -1,7 +1,7 @@
 <template>
     <section>
         <div class="container">
-            <CardServices/>
+            <CardService/>
             <div class="quote-box">
                 <div class="quote-content">
                     <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam totam eos accusamus debitis adipisci ratione quisquam ipsa minima voluptatem rem, optio ut neque id explicabo assumenda, vitae earum omnis facere."</p>
@@ -17,12 +17,12 @@
 </template>
 
 <script>
-import CardServices from '../commons/CardServices.vue';
+import CardService from '../commons/CardService.vue';
 
 export default {
     name: 'Services',
     components: {
-        CardServices
+        CardService
     }
 }
 </script>
@@ -31,7 +31,7 @@ export default {
 @import '../../assets/style/partials/variables.scss';
 
     section {
-        height: 800px;
+        padding-top: 0;
         background-image: linear-gradient(150deg, #4154ff 0%, #d5000b 100%);
         .author-box  {
             height: 44px;

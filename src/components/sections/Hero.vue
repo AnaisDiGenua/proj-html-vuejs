@@ -55,9 +55,6 @@ export default {
             font-size: 3rem;
             margin: 10px 0 20px 0;
             }
-            .gray-text {
-                color: $gray;
-            }
             button {
                 margin: 20px 10px 20px 0;
                 i {
@@ -69,15 +66,10 @@ export default {
             width: 70px;
             height: 70px;
             line-height: 70px;
-            text-align: center;
-            background-color: white;
-            border-radius: 50%;
-            position: absolute;
             top: 45%;
             left: 75%;
             transform: translate(-50%, -50%);
             i {
-                color: $btn1;
                 font-size: .75rem;
             }
         }
