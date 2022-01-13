@@ -4,6 +4,7 @@
         <Services/>
         <Videos/>
         <Subscription/>
+        <Services2/>
     </main>
 </template>
 
@@ -12,6 +13,7 @@ import Hero from '../sections/Hero.vue';
 import Services from '../sections/Services.vue';
 import Videos from '../sections/Videos.vue';
 import Subscription from '../sections/Subscription.vue';
+import Services2 from '../sections/Services2.vue';
 
 export default {
     name: 'Main',
@@ -19,7 +21,8 @@ export default {
         Hero,
         Services,
         Videos,
-        Subscription
+        Subscription,
+        Services2
     }
 }
 </script>
