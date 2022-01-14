@@ -103,17 +103,6 @@ export default {
         }
         .container {
             margin-top: 100px;
-            .title-box {
-                display: flex;
-                justify-content: space-between;
-                margin-bottom: 30px;
-                p {
-                    font-size: .875rem;
-                    i {
-                        font-size: .625rem;
-                    }
-                }
-            }
         }
         
 </style>
