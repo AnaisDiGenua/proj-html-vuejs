@@ -22,7 +22,7 @@ export default {
         Services,
         Videos,
         Subscription,
-        Services2
+        Services2,
     }
 }
 </script>
